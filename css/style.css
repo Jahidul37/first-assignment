@@ -5,7 +5,7 @@
 
 /* This is header area */
 header {
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(../images/banner/banner3.png);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -89,7 +89,7 @@ header {
 /* image and gradient part */
 .image-gradient {
     margin: 130px 0;
-    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 80%;
