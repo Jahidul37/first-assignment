@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* This is header area */
+header {
+    background-image: url(/images/banner/banner3.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+}
+
+.header-part {
+    display: flex;
+    justify-content: flex-end;
+    padding: 200px 180px;
+}
+
+.header-right {
+    text-align: right;
+    width: 33%;
+    color: #fff;
+}
+
+.header-right h1 {
+    margin-bottom: 10px;
+}
+
+.header-right button {
+    border: 0;
+    margin-top: 20px;
+    background-color: #fff;
+    color: blue;
+    font-weight: 400;
+}
+
+/* man and for content section */
+.my-failer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.for-man {
+    margin-top: 130px;
+    margin-left: 206px;
+    margin-right: 80px;
+
+}
+
+.for-man img {
+    width: 300px;
+    height: 350px;
+}
+
+.for-text {
+    margin-top: 230px;
+    margin-left: 0px;
+    margin-right: 100px;
+    width: 416px;
+
+}
+
+/* My Plans part */
+.about-plan h1 {
+    margin-top: 130px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.my-plans {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.my-plan img {
+    width: 60px;
+    height: 60px;
+    margin-left: 27px;
+    margin-bottom: 5px;
+
+}
+
+
+/* image and gradient part */
+.image-gradient {
+    margin: 130px 0;
+    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 284px;
+    margin-left: 10%;
+    opacity: 0.8;
+
+}
+
+.images {
+    padding-left: 100px;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.images h1 {
+    margin-bottom: 10px;
+}
+
+.images button {
+    background-color: #fff;
+    border: 0;
+    color: blue;
+}
+
+/* footer part  */
+footer {
+    background-color: black;
+    width: 100%;
+    height: 504px;
+}
+
+.footer-area {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+
+}
+
+.footer-left {
+    padding: 90px 230px;
+
+}
+
+.footer-left img {
+    margin: 20px 5px;
+}
+
+.footer-left p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-right {
+    padding: 90px 230px;
+
+}
+
+.footer-right input {
+    border: 1px solid rgb(146, 151, 146);
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: black;
+    color: #fff;
+    margin-bottom: 16px;
+    margin-top: 30px;
+
+}
+
+button {
+    padding: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    color: #fff;
+}
